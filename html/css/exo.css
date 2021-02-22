@@ -1,0 +1,19 @@
+ul li {
+    display: inline;
+}
+
+ul li {
+    text-decoration: underline;
+    color: black;
+    background-color: black;
+}
+
+nav {
+    display: inline;
+}
+
+nav {
+    text-decoration: underline;
+    color: black;
+    background-color: black;
+}

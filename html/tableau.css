@@ -1,0 +1,59 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    max-width: 1000px;
+    margin: auto;
+}
+
+nav ul li {
+    display: table-cell;
+}
+
+nav ul li {
+    height: 1em;
+    background-color: black;
+    padding: 1em;
+}
+
+nav {
+    background-color: black;
+}
+
+footer ul li {
+    display: table-cell;
+}
+
+footer ul li {
+    height: 1em;
+    background-color: black;
+    padding: 1em;
+}
+
+a {
+    color: white;
+}
+
+footer {
+    background-color: black;
+}
+
+.colone {
+    border: 5px;
+}
+
+.box {
+    background: rgb(113, 113, 133);
+    width: 300px;
+    height: 468px;
+    float: right;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    position: relative;
+    right: 400px;
+}
