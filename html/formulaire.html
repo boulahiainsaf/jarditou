@@ -3,72 +3,74 @@
 
 <head>
     <title>jarditou</title>
-    <link rel="stylesheet" href="formulaire.css" />
-    <title>jarditou</title>
+    <link rel="stylesheet" href="css/formulaire.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/formulaire.css">
+</head>
 
-    <body>
-        <header>
-            <img src="images/jarditou_logo.jpg" alt="jarditou_logo" width="200">
-            <h2 class="logo" id="title">Tout le gardin</h2>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="acceuil2.html" title="acceuil"> Accueil </a></li>
-                <li> <a href="tableau.htm" title="tableau"> Tableau </a></li>
-                <li> <a href="formulaire.html" title="Contact"> Contact </a></li>
-            </ul>
-        </nav>
-        <img src="images/promotion.jpg" alt="promotion" width="999">
-        <div class="colone">
-            <div class="box" id="COLONE-DROITE">[COLONE DROITE]</div>
-            <h1>cantact</h1>
-            <p>*Ces zones sont obligatoires</p>
-            <form>
-                <fieldset>
-                    <legend>Vos coordonn&eacute;es</legend>
-                    <label>Votre Nom* :</label>
-                    <input type="text" name="nom" size="30" /><br/>
-                    <label>Votre pr&eacute;nom*: </label>
-                    <input type="text" name="prenom" size="30" /><br/>
-                    <label>Sexe* :</label>
-                    <input type="radio" name="F&eacute;minin" value="F&eacute;minin" />F&eacute;minin
-                    <input type="radio" name="Masculin" value="Masculin" />Masculin<br/>
-                    <label>Date de naissance*: </label><input type="date" name="ddn"><br>
-                    <label>Code postal* :</label>
-                    <input type="text" name="Code postal" size="30" /><br/>
-                    <label>Adresse* :</label>
-                    <input type="text" name="Adresse" size="30" /><br/>
-                    <label>Ville* :</label>
-                    <label>Email* : </label>
-                    <input type="email" placeholder="dave.loper@afpa.fr" />
-                </fieldset>
-                <fieldset>
-                    <legend>Votre demande</legend>
-                    <label>Sujet* : </label>
-                    <select name="Veuillez s&eacute;l&eacute;ctionner un sujet" size="1">
+<body>
+    <header>
+        <img src="images/jarditou_logo.jpg" alt="jarditou_logo" width="200">
+        <h2 class="logo" id="title">Tout le gardin</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="acceuil2.html" title="acceuil"> Accueil </a></li>
+            <li> <a href="tableau.htm" title="tableau"> Tableau </a></li>
+            <li> <a href="formulaire.html" title="Contact"> Contact </a></li>
+        </ul>
+    </nav>
+    <img src="images/promotion.jpg" alt="promotion" width="100%">
+    <div class="colone">
+        <div class="box" id="COLONE-DROITE">[COLONE DROITE]</div>
+        <h1>Contact</h1>
+        <p>*Ces zones sont obligatoires</p>
+        <form>
+            <fieldset>
+                <legend>Vos coordonn&eacute;es</legend>
+                <label>Votre Nom* :</label>
+                <input type="text" name="nom" size="30" /><br/>
+                <label>Votre pr&eacute;nom*: </label>
+                <input type="text" name="prenom" size="30" /><br/>
+                <label>Sexe* :</label>
+                <input type="radio" name="F&eacute;minin" value="F&eacute;minin" />F&eacute;minin
+                <input type="radio" name="Masculin" value="Masculin" />Masculin<br/>
+                <label>Date de naissance*: </label><input type="date" name="ddn"><br>
+                <label>Code postal* :</label>
+                <input type="text" name="Code postal" size="30" /><br/>
+                <label>Adresse* :</label>
+                <input type="text" name="Adresse" size="30" /><br/>
+                <label>Ville* :</label>
+                <label>Email* : </label>
+                <input type="email" placeholder="dave.loper@afpa.fr" />
+            </fieldset>
+            <fieldset>
+                <legend>Votre demande</legend>
+                <label>Sujet* : </label>
+                <select name="Veuillez s&eacute;l&eacute;ctionner un sujet" size="1">
                     <option value="Veuillez s&eacute;l&eacute;ctionner un sujet">Veuillez s&eacute;l&eacute;ctionner un sujet</option>
                     <option value="Mes commandes">Mes commandes</option>
                     <option value="Question sur un produit">Question sur un produit</option>
                     <option value="R&eacute;clamation">R&eacute;clamation</option>
                     <option value="Autre">Autre</option>
                 </select><br/>
-                    <label>Votre question*: </label><textarea name="commenter" rows="2" cols="15"> </textarea>`
-                </fieldset>
-                <input type="checkbox" name="J'accepte le traitement informatique de ce formulaire" required="">* J'accepte le traitement informatique de ce formulaire
-                <p id="buttons">
-                    <input type="submit" value="Envoyer">
-                    <input type="submit" value="annuler">
-                </p>
+                <label>Votre question*: </label><textarea name="commenter" rows="2" cols="15"> </textarea>`
+            </fieldset>
+            <input type="checkbox" name="J'accepte le traitement informatique de ce formulaire" required="">* J'accepte le traitement informatique de ce formulaire
+            <p id="buttons">
+                <input type="submit" value="Envoyer">
+                <input type="submit" value="annuler">
+            </p>
 
-            </form>
-        </div>
-        <footer>
-            <ul>
-                <li><a href="acceuil2.html" title="Mention l&#232;gale ">Mention l&#232;gale </a></li>
-                <li><a href="tableau.htm" title="Horaire "> Horaire</a></li>
-                <li><a href="formulaire.html" title="plan du site ">plan du site </a></li>
-            </ul>
-        </footer>
-    </body>
+        </form>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="acceuil2.html" title="Mention l&#232;gale ">Mention l&#232;gale </a></li>
+            <li><a href="tableau.htm" title="Horaire "> Horaire</a></li>
+            <li><a href="formulaire.html" title="plan du site ">plan du site </a></li>
+        </ul>
+    </footer>
+</body>
 
 </html>
