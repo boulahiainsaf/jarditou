@@ -2,7 +2,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 10pt;
     max-width: 2000px;
-    margin: auto;
+    margin-top: auto;
 }
 
 nav ul li {
@@ -37,15 +37,21 @@ footer {
     background-color: black;
 }
 
+.tout {
+    display: flex;
+    justify-content: space-between;
+}
+
 .colone {
-    border: 5px;
+    float: left;
+    width: 69%;
 }
 
 .box {
     background: rgba(196, 194, 191, 0.986);
-    width: 300px;
-    height: 410px;
     float: right;
+    width: 33%;
+    height: auto;
 }
 
 header {
