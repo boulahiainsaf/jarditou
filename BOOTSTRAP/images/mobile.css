@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+    .colone {
+        font-size: 30px;
+    }
+    .box {
+        display: none;
+    }
+    nav ul li {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+}
