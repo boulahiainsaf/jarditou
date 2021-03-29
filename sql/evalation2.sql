@@ -60,7 +60,7 @@ ON orders.OrderID = `order details`.OrderID AND Year(OrderDate) = "1997"
 SELECT MAX(OrderDate) AS 'Date de dernière commande'
 FROM orders 
 JOIN customers ON orders.CustomerID = customers.CustomerID
-WHERE CompanyName = 'Du monde entier';
+WHERE CompanyName = 'Du monde entier'
 
 -- 10 – Quel est le délai moyen de livraison en jours ?
 select round(AVG(DATEDIFF(ShippedDate, OrderDate))) AS 'Délai moyen de livraison en jours' from orders
